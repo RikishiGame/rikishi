@@ -25,7 +25,6 @@ class User extends BaseUser {
     protected $Id;
 
 
-
     public function __construct()
     {
         parent::__construct();
