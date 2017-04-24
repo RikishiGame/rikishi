@@ -4,3 +4,8 @@ app:
 
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+stable:
+    resource: "@AppBundle/Controller/StableController.php"
+    type:     annotation
+    prefix:   /stable
